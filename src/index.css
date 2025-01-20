@@ -1,0 +1,18 @@
+:root{
+  /** Color Palate */
+  --yellow:#F2D22E;
+  --purple:#211259;
+  --dark:#0F0F26;
+  --light:#353459;
+  --blue:#264CBF;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  padding:0;
+}
+#main_section{
+  background-color: var(--yellow);
+}
