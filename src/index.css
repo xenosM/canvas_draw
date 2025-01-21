@@ -74,3 +74,17 @@ body{
 #size-slider{
   cursor:pointer;
 }
+#canvas-container{
+  height: 100%;
+  width:90%;
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+}
+#canvas{
+  height:90%;
+  width:90%;
+  background-color: white;
+  cursor: url('assets/icons/android-chrome-512x512.png'),crosshair;
+}
