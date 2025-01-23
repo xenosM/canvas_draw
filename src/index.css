@@ -42,6 +42,7 @@ body{
     display: flex;
     gap: 4rem;
     flex-direction: column;
+    align-items: center;
   }
 }
 #color-chooser-wrapper{
@@ -74,17 +75,26 @@ body{
 #size-slider{
   cursor:pointer;
 }
+#clear-btn-wrapper{
+  background-color: var(--blue);
+  height:4rem;
+  width: 4rem;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+  border: 3px solid var(--purple);
+}
+#clear-btn{
+  height:60%;
+  width:60%;
+}
 #canvas-container{
-  height: 100%;
-  width:90%;
   display:grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   place-items: center;
 }
 #canvas{
-  height:90%;
-  width:90%;
   background-color: white;
   cursor: url('assets/icons/android-chrome-512x512.png'),crosshair;
 }
