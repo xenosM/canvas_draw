@@ -44,6 +44,7 @@ const Canvas = () => {
       ctx.lineTo(e.clientX - offsetX, e.clientY - offsetY);
       ctx.strokeStyle = strokeColor
       ctx.lineWidth = strokeWidth
+      ctx.lineCap = "round"
       ctx.stroke();
     }
     function handleMouseUp() {
