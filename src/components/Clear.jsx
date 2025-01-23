@@ -1,7 +1,11 @@
+import { useContext,useEffect } from "react";
+import { clearBtnContext } from "../Contexts/ContextProvider";
+
 const Clear = function(){
     const length=50;
+    const clearBtnRef= useContext(clearBtnContext)
     return (
-      <div id="clear-btn-wrapper" >
+      <div id="clear-btn-wrapper"  ref={clearBtnRef}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

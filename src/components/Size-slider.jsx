@@ -14,7 +14,7 @@ const SizeSlider = function () {
   }
   return (
     <label id="size-slider-wrapper">
-      <input id="size-slider" type="range" min={1} max={30} value={sizeValue} onChange={handleOnChange} />
+      <input id="size-slider" type="range" min={1} max={50} value={sizeValue} onChange={handleOnChange} />
       <span>{sizeValue} px</span>
     </label>
   );
